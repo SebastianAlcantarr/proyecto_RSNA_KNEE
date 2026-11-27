@@ -1,0 +1,30 @@
+# datos (viven en Kaggle, no se suben por las reglas de la competencia)
+datos/raw/
+datos/cache/
+*.dcm
+*.npz
+*.npy
+*.zip
+
+# modelos y salidas pesadas
+modelos/
+*.keras
+*.h5
+*.pt
+*.pth
+submission.csv
+
+# credenciales (NUNCA subir)
+kaggle.json
+.env
+
+# python / jupyter
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# sistema / editores
+.DS_Store
+.vscode/
+.idea/

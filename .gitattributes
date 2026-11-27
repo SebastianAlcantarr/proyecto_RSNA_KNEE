@@ -1,0 +1,5 @@
+# Las filas nuevas de experimentos.csv se juntan solas al hacer merge
+experimentos.csv merge=union
+
+# Diffs legibles de libretas (con nbdime: uv run nbdime config-git --enable)
+*.ipynb diff=jupyternotebook
